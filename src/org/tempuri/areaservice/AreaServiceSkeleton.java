@@ -15,8 +15,8 @@
         /**
          * Auto generated method signature
          * 
-         * @param parameters 
-         * @return area 
+                                     * @param parameters 
+             * @return area 
          */
         
                  public org.tempuri.areaservice.Area calculateRectArea
@@ -24,11 +24,11 @@
                   org.tempuri.areaservice.Parameters parameters
                   )
             {
-                org.tempuri.areaservice.Area area = new org.tempuri.areaservice.Area();
-                area.setArea(
-                		parameters.getParameters().getHeight() * parameters.getParameters().getWidth());
-                
-                return area;
+                	 org.tempuri.areaservice.Area area = new org.tempuri.areaservice.Area();
+                     area.setArea(
+                     		parameters.getParameters().getHeight() * parameters.getParameters().getWidth());
+                     
+                     return area;
         }
      
     }
